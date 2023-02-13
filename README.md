@@ -2,6 +2,8 @@
 
 This is a test to review knowledge and understanding of basic API principles.
 
+Click "use this template" and "create a new repository" in Github. 
+
 ## Brief
 
 This is an API for a todo list application, but we've a couple issues we need to resolve. We have a test suite but some of the tests are failing:
@@ -15,11 +17,12 @@ This is an API for a todo list application, but we've a couple issues we need to
 7) Tests\Feature\TodoTest::test_adding_todo_to_complete_list_updates_list_status
 8) Tests\Feature\UserTest::test_user_register
 
-And then secondly, some fo the clients that are integrating into this often forget to include the correct headers, so then we're finding that they're being returned redirects and HTML when they hit a route thats unauthorised etc.
+And then secondly, some of the clients that are integrating into this often forget to include the correct headers, so then we're finding that they're being returned redirects and HTML when they hit a route thats unauthorised etc.
+
 Can you please set this to only return `JSON` regardless of headers for all API routes? Can you also please add a test so we don't accidently run into this again.
 
 ### Working Environment
-We've setup gitpod for this project, if you open gitpod and run `ddev exec phpunit` you should have the test suite run and see the fails.
+Open in [Gitpod](https://gitpod.io/#https://github.com/flowsa/codingtest) or use your own development environment. If you open Gitpod and run `ddev exec phpunit` you should have the test suite run and see the fails.
 
 ### Testing
 There is a Postman test suite and enviroment, to use please point the `baseUrl` variable to the gitpod open port's address.
@@ -29,7 +32,7 @@ NB: This collection has been setup to test userflow so has been designed to run 
 
 
 ### Submission
-Please fork this repo and commit your work, please then update this `Readme` with details of how to get the application standing and or details of where this is staged if you are serving it yourself.
+Click "use this template" and "create a new repository" in Github and commit your work to this new repo. Please then update this `Readme` with details of how to get the application standing and or details of where this is staged if you are serving it yourself.
 
 Please update the Postman Environment to match any variable criteria (eg, `baseUrl` etc)
 
