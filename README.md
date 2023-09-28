@@ -39,6 +39,6 @@ Click "use this template" and "create a new repository" in Github and commit you
 
 Please update the Postman Environment to match any variable criteria (eg, `baseUrl` etc)
 
-Please remember to allow the Github users `richardfrankza` and `pixelbaste` to have access to this repo in order for us to review.
+Please remember to allow the Github user `richardfrankza` to have access to this repo in order for us to review.
 
 Good luck!
