@@ -24,8 +24,10 @@ And then secondly, some of the clients that are integrating into this often forg
 
 Can you please set this to only return `JSON` regardless of headers for all API routes? Can you also please add a test so we don't accidently run into this again.
 
+To run the tests use `php artisan test` to run the PHPUnit test suite.
+
 ### Working Environment
-Open in [Gitpod](https://gitpod.io/#https://github.com/flowsa/codingtest) or use your own development environment. If you open Gitpod and run `ddev exec phpunit` you should have the test suite run and see the fails.
+Open in [Gitpod](https://gitpod.io/#https://github.com/flowsa/codingtest) or use your own development environment. If you open Gitpod and run `ddev php artisan test` you should have the test suite run and see the fails.
 
 ### Testing
 There is a Postman test suite and enviroment, to use please point the `baseUrl` variable to the gitpod open port's address.
