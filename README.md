@@ -27,11 +27,18 @@ Can you please set this to only return `JSON` regardless of headers for all API 
 To run the tests use `php artisan test` to run the PHPUnit test suite.
 
 ### Working Environment
-Open in [Gitpod](https://gitpod.io/#https://github.com/flowsa/codingtest) or use your own development environment. If you open Gitpod and run `ddev php artisan test` you should have the test suite run and see the fails.
+You are welcome to use your own PHP development environment.
+Typically this would include
+1. Cloning the repository
+2. Running `composer install`
+3. Running `php artisan key:generate`
+4. Running `php artisan migrate:fresh`
+5. Running `php artisan serve`
+
+There is also a DDEV setup. If you have DDEV installed, simply run `ddev start`. 
 
 ### Testing
-There is a Postman test suite and enviroment, to use please point the `baseUrl` variable to the gitpod open port's address.
-eg `http://127.0.0.1/` change to `https://8080-flowsa-laravelfailingte-7u06879adi0.ws-eu63.gitpod.io` or whatever the 8080 public port domain is.
+There is a Postman test suite and enviroment, to use please point the `baseUrl` variable to eg `http://127.0.0.1:8000` or wherever you are serving the application from.
 
 NB: This collection has been setup to test userflow so has been designed to run as a collection, individual tests may fail based on environment variables being set in previous tests.
 
