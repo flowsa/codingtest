@@ -13,7 +13,7 @@ This is an API for a todo list application, but we've a couple issues we need to
 
 We have a test suite but some of the tests are failing due to some bugs we've intentionally added.
 
-**Look through the application logic and fix it so that the tests pass.**
+**Look through the application logic and fix it so that the tests pass. Do not edit the tests!**
 
 1) Tests\Feature\TodoListTest::test_todos_list_can_only_be_updated_by_owner
 2) Tests\Feature\TodoListTest::test_todos_list_can_only_be_deleted_by_owner
