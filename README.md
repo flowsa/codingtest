@@ -9,7 +9,11 @@ Click "use this template" and "create a new repository" in Github to get started
 
 ## Brief
 
-This is an API for a todo list application, but we've a couple issues we need to resolve. We have a test suite but some of the tests are failing:
+This is an API for a todo list application, but we've a couple issues we need to resolve. 
+
+We have a test suite but some of the tests are failing due to some bugs we've intentionally added.
+
+**Look through the application logic and fix it so that the tests pass.**
 
 1) Tests\Feature\TodoListTest::test_todos_list_can_only_be_updated_by_owner
 2) Tests\Feature\TodoListTest::test_todos_list_can_only_be_deleted_by_owner
