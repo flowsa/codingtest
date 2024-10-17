@@ -2,7 +2,7 @@
 
 This is a test to review knowledge and understanding of basic API principles.
 
-Click "use this template" and "create a new repository" in Github to get started
+Click "use this template" and "create a new repository" in Github to get started. Please send back the finished product in a pull request.
 
 ![image](https://user-images.githubusercontent.com/17523844/218440440-760e900a-8676-4f98-8b64-5e041dc09e8f.png)
 
